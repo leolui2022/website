@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>尚花店有限公司</title>
+    <title>&#127803  &#127804 花店產品 &#127803  &#127804</title>
     <link rel="shortcut icon" type="image/png" href="./images/logo.png" />
     <!-- CSS文件載入 -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -19,7 +19,7 @@
     <header class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="index.html">
-                <img height="90px" src="./image/logo2.jpg" alt="logo">
+                <img height="200px" src="./image/logo2.jpg" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -60,7 +60,51 @@
                 <div class="col-12 col-md-9">
                     <div class="row">
                         <div class="col-12 mb-3">
-                            <img src="./image/OIP.jpg" alt="Shop Banner" class="img-fluid">
+                           
+                           
+                           <!-- The grid: four columns -->
+                                <div class="row">
+                                    <div class="column">
+                                        創業類<img src="./image/Natural-charm有機純棉嬰兒禮物籃.jpg" alt="鴻圖大展  美好明天 創業類" onclick="myFunction(this);">
+                                    </div>
+                                    <div class="column">
+                                        生命類<img src="./image/Burt-s-Bees有機嬰兒禮物籃_.jpg" alt="天天愛你 人生燦爛 生命類" onclick="myFunction(this);">
+                                    </div>
+                                    <div class="column">
+                                        健康類<img src="./image/實惠水果籃訂購--4-.jpg" alt="健康美滿  生活愉悅 祝君健康類" onclick="myFunction(this);">
+                                    </div>
+                                    <div class="column">
+                                        好走類<img src="./image/悼念花圈-一對.jpg" alt="無憾圓夢 完美一生 好走類" onclick="myFunction(this);">
+                                    </div>
+                                </div>
+                                
+                                <script>
+                                    function myFunction(imgs) {
+                                      var expandImg = document.getElementById("expandedImg");
+                                      var imgText = document.getElementById("imgtext");
+                                      expandImg.src = imgs.src;
+                                      imgText.innerHTML = imgs.alt;
+                                      expandImg.parentElement.style.display = "block";
+                                    }
+                                    </script>
+                                    
+                                <!-- The expanding image container -->
+                                <div class="container">
+                                    <!-- Close the image -->
+                                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                                
+                                    <!-- Expanded image -->
+                                    <img id="expandedImg" style="width:100%">
+                                
+                                    <!-- Image text -->
+                                    <div id="imgtext"></div>
+                                </div>
+
+
+
+
+
+
                         </div>
                         <!-- 排序/start -->
                         <div class="col-12 mt-3 mb-3">
